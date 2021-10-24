@@ -21,7 +21,7 @@ function mkdirectories(srcDir,currDir){
     for(let i=0;i<subDirs.length;i++){
         let eachSdirPath = path.join(currDir,subDirs[i]);
         fs.mkdirSync(eachSdirPath,{recursive:true});
-        mkdirectories(path.join(srcDir,subDirs[i]),eachSdirPath);
+        mkdirectories(path.join(srcDir,subDirs[i]),eachSdirPath);   //Recursive call
     }
 
     let files = getFiles(srcDir);
