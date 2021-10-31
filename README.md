@@ -1,5 +1,5 @@
 
-# About this project
+# About this project: Directory Viewer
 
 Takes a directory as an input, Scans the directory and it's sub directories and stores the name of each file along with it's corresponding size in a pdf file.
 
